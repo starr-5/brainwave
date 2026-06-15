@@ -113,10 +113,15 @@
     font-weight: bold;
     cursor:pointer;
     margin-top:30px;
+    width: 100%;
 }
+/* .btn-link { action evezine a teqi ile duzeldende.
+    text-decoration: none;
+    display: block; /* Duymenin enini duzgun saxlayir */
+
 
 .register-box {
-    margin-top:30px;
+    margin-top: 30px;
     text-align: center;
 }
 .register-text{

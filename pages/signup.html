@@ -16,36 +16,38 @@
 </head>
 
 <body>
+    <!--Header-->
     <header class="header">
         <div class="box1">
             <h1 class="logo-title">
                 <a href='../index.html' class='logo-link'>Brainwave.io</a></h1>
         </div>
     </header>
+    
     <section class="bg">
         <div class="box2">
             <p class="box2-title">Sign up</p>
-            <p class="box2-def">To get started, you need to sign up here.</p>
+            <p class="box2-text">To get started, you need to sign up here.</p>
         </div>
         <div class="login-card">
-            <form class="contact-form">
+            <form class="contact-form" action="../index.html">
                 <div class="input-group">
                     <label class="input-label">First & Last Name</label>
-                    <input type="text" placeholder="i.e. John Doe" class="contact-input" />
+                    <input type="text" placeholder="i.e. John Doe" class="contact-input" required />
                 </div>
                 <div class="input-group">
                     <label class="input-label">Email</label>
-                    <input type="email" placeholder="i.e. john@mail.com" class="contact-input" />
+                    <input type="email" placeholder="i.e. john@mail.com" class="contact-input" required />
                 </div>
                 <div class="input-group">
                     <label class="input-label">Password</label>
-                    <input type="password" placeholder="********" class="contact-input" />
+                    <input type="password" placeholder="********" class="contact-input" required />
                 </div>
                 <div class="input-group">
                     <label class="input-label">Confirm Password</label>
-                    <input type="password" placeholder="********" class="contact-input" />
+                    <input type="password" placeholder="********" class="contact-input" required />
                 </div>
-                <button class="btn">Create an account</button>
+                    <button class="btn" type="submit">Create an account</button>
             </form>
         </div>
         
