@@ -1,0 +1,218 @@
+.header {
+    /* border-bottom: 2px solid black; */
+    height: 100px;
+    background-color: #ffff;
+    position: sticky;
+    /* makes the header stick to the top of the page when scrolling */
+    display: flex;
+    justify-content: center;
+    top: 0;
+    /* position the header at the top of the page, while scrolling, nothing is seen behind the header*/
+    z-index: 1000;
+    /* ensures the header stays above other content when scrolling */
+    padding: 0 200px;
+    align-items: center;
+}
+
+.logo-title {
+    cursor: pointer;
+    color: #161C2D;
+    font-size: 24px;
+    font-family: 'Rubik';
+    font-weight: bold;
+}
+.logo-link {
+    text-decoration: none;
+    color: inherit;
+}
+.box1{
+    width:157px;
+    height: 28px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg {
+    background-color:#F4F7FA;
+    width: 100%;
+    height: 1100px;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items: center;  
+}
+.box2{ 
+    width: auto;
+    height: auto;
+    padding-top: 150px;
+    margin-bottom: 30px;
+}
+.box2-title{
+    color:#161C2D;
+    font-size: 60px;
+    font-family: 'Roboto';
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.box2-text{
+    font-family: 'Roboto';
+    opacity: 70%;
+    text-align: center;
+}
+
+.login-card{
+    background-color:#FFFF;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #E7E9ED;
+    padding: 30px;
+    box-shadow: 0px 34px 33px -23px rgba(22, 28, 46, 0.129);
+}
+
+.contact-form{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+}
+.input-group{
+    display:flex;
+    flex-direction: column;
+    gap:25px;
+}
+.input-label {
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #161C2D;
+    
+}
+.contact-input {
+    padding: 22px 24px; /*ferqe bax */
+    border-radius: 8px;
+    border: 1px solid #E7E9ED;
+    display: flex;
+    align-items: center;
+    line-height: 10px;
+    outline:none;
+    font-size:18px;
+}
+.contact-input:focus{
+    border-color: #473BF0;
+}
+.btn{
+    background-color: #473BF0;/*btn color*/
+    color:#FFFF;/*textcolor*/
+    border: none;
+    padding: 18px 20px;
+    border-radius:8px;
+    font-family:'Roboto';
+    font-weight: bold;
+    cursor:pointer;
+    margin-top:30px;
+    width: 100%;
+}
+/* .btn-link {
+    text-decoration: none;
+    display: block;
+} */
+
+.register-box {
+    margin-top:30px;
+    text-align: center;
+}
+.register-text{
+    font-family: 'Roboto';
+}
+.register-link{
+    color: #473BF0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer {
+    margin-top:80px;
+    background-color: rgb(22, 27, 46);
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 120px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: auto;
+    /* height: 200px;
+    gap: 70px; */
+}
+.footer-item {
+    width: max-content;
+    height: 100%;
+    float: left;
+    margin-right: 60px;
+    font-family: 'Roboto';
+}
+
+.footer-item:last-child {
+    margin-right: 0;
+}
+
+.footer-item:first-child {
+    /* Birinci qutu (Brainwave) mətni uzun olduğu üçün max-content olanda çox uzanmasın deyə 
+   ona xüsusi olaraq sabit en veririk, amma margin-ini silirik (çünki artıq gap idarə edir) */
+    width: 274px;
+}
+
+.footer-item-title {
+    opacity: 65%;
+    font-size: 15px;
+    margin-bottom: 30px;
+    /* margin-top: 2px; */
+    line-height: 26px;
+    /* width:274px; */
+}
+
+.footer-box5 {
+    height: 20px;
+    clear: both;
+}
+
+
+.newsletter-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.footer-list {
+    list-style-type: none;
+    /* removes the default bullet points */
+    padding: 0;
+    /* removes default padding */
+    padding-bottom: 15px;
+}
+
+.footer-list-item {
+    margin-bottom: 15px;
+    /* adds space between list items */
+}
+
+.footer-list-link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.footer-title {
+    font-family: 'Rubik';
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
