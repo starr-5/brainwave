@@ -1,0 +1,57 @@
+.support {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 109px;
+}
+.support-title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 65px;
+  color: var(--primary-text-color);
+}
+
+.support-desc {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 32px;
+  color: var(--primary-text-color);
+  opacity: 70%;
+  width: 640px;
+  text-align: center;
+  margin-top: 44px;
+}
+
+.terms-content {
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
+  width: 760px;
+  margin-top: 39px;
+  margin-bottom: 210px;
+}
+
+.terms-title {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 32px;
+  color: var(--primary-text-color);
+}
+
+.terms-desc {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #161c2d;
+  opacity: 70%;
+  margin-top: 20px;
+}
+
+.security-desc {
+  margin-left: 15px;
+}
+
+.security-item {
+  margin-top: 20px;
+}
