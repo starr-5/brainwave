@@ -163,10 +163,13 @@
   text-decoration: none;
   color: black;
   font-weight: bold;
+  transition: all 0.3s;
+}
+.nav-link:hover {
+  color: #fc593b;
 }
 
 .nav-link.active {
-  color: #fc593b;
   font-weight: bold;
 }
 
