@@ -1,0 +1,198 @@
+/* x yazilanlar hazir, rengli version */
+.header {
+  /* x border-bottom: 2px solid black; */
+  height: 100px;
+  background-color: #ffff;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  /*flex-direction: row; */
+  /* makes the header stick to the top of the page when scrolling */
+  top: 0;
+  /* position the header at the top of the page, while scrolling, nothing is seen behind the header*/
+  z-index: 1000;
+  /* ensures the header stays above other content when scrolling */
+  padding: 0 200px;
+}
+
+.logo-title {
+  cursor: pointer;
+  color: #161c2d;
+  font-size: 28px;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+}
+
+.btn:active {
+  /* transform: rotate(10deg); duymeni basib saxlayanda 10derece donur */
+  transform: scale(0.98);
+}
+
+.box {
+  /* width: 1508px; */
+  height: auto;
+  /* x border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+  /* border-width: 2px; border-color: black; border-style: solid; */
+  /* border-radius: 12px; rounded corners */
+  /* margin: 4px; margin creates space outside the element */
+  /*margin-bottom used to create space between elements */
+}
+
+.box1 {
+  /* width: 179px; */
+  height: auto;
+  /* x background-color: lightblue; */
+}
+
+.box2 {
+  /* width: 208px; */
+  height: auto;
+  /* clear is used to prevent elements from floating next to each other */
+  /* x background-color: lightpink; */
+}
+
+.box3 {
+  /* width: 131px; */
+  height: auto;
+  /* x background-color: lightgreen; */
+  /* padding: 40px; */
+}
+
+.footer {
+  background-color: rgb(22, 27, 46);
+  color: rgb(255, 255, 255);
+  text-align: left;
+  padding: 120px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: auto;
+  /* height: 200px;
+    gap: 70px; */
+}
+
+.container {
+  padding: 20px;
+  /* x background-color: lightseagreen; */
+  min-height: 100vh;
+  /* 100% of the viewport height */
+}
+
+.footer-item {
+  width: max-content;
+  height: 100%;
+  float: left;
+  margin-right: 60px;
+  font-family: "Roboto";
+}
+
+.footer-item:last-child {
+  margin-right: 0;
+}
+
+.footer-item:first-child {
+  /* Birinci qutu (Brainwave) mətni uzun olduğu üçün max-content olanda çox uzanmasın deyə 
+   ona xüsusi olaraq sabit en veririk, amma margin-ini silirik (çünki artıq gap idarə edir) */
+  width: 274px;
+}
+
+.footer-item-title {
+  opacity: 65%;
+  font-size: 15px;
+  margin-bottom: 30px;
+  /* margin-top: 2px; */
+  line-height: 26px;
+  /* width:274px; */
+}
+
+.footer-box5 {
+  height: 20px;
+  clear: both;
+}
+
+.newsletter-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.footer-list {
+  list-style-type: none;
+  /* removes the default bullet points */
+  padding: 0;
+  /* removes default padding */
+  padding-bottom: 15px;
+}
+
+.footer-list-item {
+  margin-bottom: 15px;
+  /* adds space between list items */
+}
+
+.footer-list-link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.footer-title {
+  font-family: "Rubik";
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+/* NAVBAR */
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  font-size: 15px;
+  font-family: "Roboto";
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.nav-link {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.nav-link.active {
+  color: #fc593b;
+  font-weight: bold;
+}
+
+.nav-list .nav-item {
+  display: inline;
+  padding: 2px 16px;
+
+  /* background-color: yellow; */
+  /* border: 1px solid #ccc; */
+  /* display: none = tag i silib goturur*/
+  /* visibility: hidden = tag orda, but gorunmez */
+}
+
+.social-icons {
+  display: flex;
+  gap: 16px;
+  margin-top: 35px;
+  width: 142px;
+  height: 18px;
+}
+
+.footer-icon {
+  width: 24px;
+  /* İkonun eni */
+  height: 18px;
+  /* İkonun hündürlüyü */
+  opacity: 0.7;
+  /* Bir az solğun rəng */
+}

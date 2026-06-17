@@ -1,0 +1,131 @@
+@import url(../global/global.css);
+
+.our-story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-general {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  color: var(--primary-text-color);
+}
+
+.description-all {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 32px;
+  color: var(--primary-text-color);
+  opacity: 70%;
+}
+
+.our-story-title {
+  margin-top: 109px;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 65px;
+  margin-top: 109px;
+  color: var(--primary-text-color);
+}
+.our-story-desc {
+  margin-top: 44px;
+  text-align: center;
+  margin-bottom: 58px;
+  width: 600px;
+}
+
+.o-s-second-side {
+  margin-top: 141px;
+  display: flex;
+  gap: 141px;
+  margin-bottom: 86px;
+}
+
+.o-s-second-side-title {
+  width: 451px;
+  height: 174px;
+}
+.o-s-second-side-desc-box {
+  width: 469px;
+  height: 294px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.high-skilled-coders {
+  background-color: var(--secondary-color);
+  height: 893px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 95px;
+}
+
+.high-skilled-coders-image-box {
+  width: 475px;
+  height: 616px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+
+.image-active1 {
+  margin-top: 42px;
+}
+
+.image-active2 {
+  margin-bottom: 42px;
+}
+
+.high-skilled-coders-info {
+  display: flex;
+  flex-direction: column;
+  gap: 38.5px;
+  width: 495px;
+}
+
+.our-team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.our-team-title {
+  margin-top: 107px;
+}
+.our-team-desc {
+  width: 610px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.our-team-workers {
+  margin-top: 68px;
+  width: 1158px;
+  height: 964px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 179px;
+}
+
+.our-team-person-title {
+  color: var(--primary-text-color);
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-top: 31px;
+}
+
+.our-team-person-desc {
+  color: var(--primary-text-color);
+  opacity: 70%;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 29px;
+  margin-top: 4px;
+}
