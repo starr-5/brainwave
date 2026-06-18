@@ -1,7 +1,10 @@
 @import url(../global/global.css);
 
+.header {
+  background-color: #f0fbf3;
+}
 .hero {
-  background-image: url("./images/background-line.svg");
+  background-image: url("../../assets/images/home-images/background-line.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -316,7 +319,7 @@
   align-items: center;
   justify-content: center;
   padding-top: 107px;
-  background-image: url("./images/background-line.svg");
+  background-image: url("../../assets/images/home-images/background-line.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
