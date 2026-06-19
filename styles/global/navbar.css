@@ -2,7 +2,7 @@
 .header {
   /* x border-bottom: 2px solid black; */
   height: 100px;
-  background-color: #ffff;
+  background-color: var(--color-white);
   position: sticky;
   display: flex;
   justify-content: space-between;
@@ -149,7 +149,6 @@
 
 /* NAVBAR */
 .nav-list {
-  list-style-type: none;
   padding: 0;
   font-size: 15px;
   font-family: "Roboto";
@@ -160,17 +159,13 @@
 
 .nav-link {
   cursor: pointer;
-  text-decoration: none;
+
   color: black;
   font-weight: bold;
   transition: all 0.3s;
 }
 .nav-link:hover {
   color: #fc593b;
-}
-
-.nav-link.active {
-  font-weight: bold;
 }
 
 .nav-list .nav-item {
