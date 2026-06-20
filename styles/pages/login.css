@@ -12,7 +12,7 @@
 }
 
 .bg {
-  background-color: #f4f7fa;
+  background-color: var(--secondary-color);
   width: 100%;
   height: 910px;
   display: flex;
@@ -27,29 +27,27 @@
   margin-bottom: 30px;
 }
 .box2-title {
-  color: #161c2d;
+  color: var(--primary-text-color);
   font-size: 60px;
-  font-family: "Roboto";
   margin-bottom: 40px;
   text-align: center;
   font-weight: bold;
 }
 
 .box2-text {
-  font-family: "Roboto";
   opacity: 70%;
   text-align: center;
 }
 
 .login-card {
-  background-color: #ffff;
+  background-color: var(--color-white);
   width: 100%;
   max-width: 350px;
   height: auto;
   border-radius: 8px;
-  border: 1px solid #e7e9ed;
+  border: 1px solid var(--border-color);
   padding: 30px;
-  box-shadow: 0px 34px 33px -23px rgba(22, 28, 46, 0.129);
+  box-shadow: 0px 34px 33px -23px #161c2e21;
 }
 
 .contact-form {
@@ -63,48 +61,39 @@
   gap: 25px;
 }
 .input-label {
-  font-family: "Roboto";
   font-weight: bold;
-  color: #161c2d;
+  color: var(--primary-text-color);
 }
 .contact-input {
-  padding: 22px 24px; /*ferqe bax */
+  padding: 22px 24px;
   border-radius: 8px;
-  border: 1px solid #e7e9ed;
+  border: 1px solid var(--border-color);
   display: flex;
   align-items: center;
-  /* line-height: 10px; */
   outline: none;
   font-size: 18px;
 }
 .contact-input:focus {
-  border-color: #473bf0;
+  border-color: var(--color-button);
 }
 .btn {
-  background-color: #473bf0; /*btn color*/
-  color: #ffff; /*textcolor*/
+  background-color: var(--color-button);
+  color: var(--color-white);
   border: none;
   padding: 18px 20px;
   border-radius: 8px;
-  font-family: "Roboto";
   font-weight: bold;
   cursor: pointer;
   margin-top: 30px;
   width: 100%;
 }
-/* .btn-link { action evezine a teqi ile duzeldende.
-    text-decoration: none;
-    display: block; /* Duymenin enini duzgun saxlayir */
 
 .register-box {
   margin-top: 30px;
   text-align: center;
 }
-.register-text {
-  font-family: "Roboto";
-}
+
 .register-link {
-  color: #473bf0;
+  color: var(--color-button);
   cursor: pointer;
-  text-decoration: none;
 }

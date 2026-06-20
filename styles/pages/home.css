@@ -1,6 +1,6 @@
 @import url(../global/global.css);
 
-.header {
+.header-main {
   background-color: var(--primary-color);
 }
 .hero {

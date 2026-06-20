@@ -19,7 +19,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* gap: 55px; */
 }
 .box2 {
   margin-bottom: 30px;
@@ -27,14 +26,12 @@
 .box2-title {
   color: var(--primary-text-color);
   font-size: 60px;
-  font-family: "Roboto";
   margin-bottom: 40px;
   text-align: center;
   font-weight: bold;
 }
 
 .box2-text {
-  font-family: "Roboto";
   opacity: 70%;
   text-align: center;
 }
@@ -61,12 +58,11 @@
   gap: 25px;
 }
 .input-label {
-  font-family: "Roboto";
   font-weight: bold;
   color: var(--primary-text-color);
 }
 .contact-input {
-  padding: 22px 24px; /*ferqe bax */
+  padding: 22px 24px;
   border-radius: 8px;
   border: 1px solid var(--border-color);
   display: flex;
@@ -79,29 +75,22 @@
   border-color: var(--color-button);
 }
 .btn {
-  background-color: var(--color-button); /*btn color*/
-  color: var(--color-white); /*textcolor*/
+  background-color: var(--color-button);
+  color: var(--color-white);
   border: none;
   padding: 18px 20px;
   border-radius: 8px;
-  font-family: "Roboto";
   font-weight: bold;
   cursor: pointer;
   margin-top: 30px;
   width: 100%;
 }
-/* .btn-link {
-    text-decoration: none;
-    display: block;
-} */
 
 .register-box {
   margin-top: 30px;
   text-align: center;
 }
-.register-text {
-  font-family: "Roboto";
-}
+
 .register-link {
   color: var(--color-button);
   cursor: pointer;
